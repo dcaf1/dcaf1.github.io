@@ -185,32 +185,6 @@
 <p class="sh" style="color: #FFFFFF"><b>&nbsp; Hospital San José</b><br>
 &nbsp; Hospitales
 <span class="badge bg-green">Ver</span></p> 
-
-<script>
-
-
-
-    var xmlhttp;
-    if (window.XMLHttpRequest) {
-        // code for IE7+, Firefox, Chrome, Opera, Safari
-        xmlhttp=new XMLHttpRequest();
-    } else {
-        // code for IE6, IE5
-        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-
-    xmlhttp.onreadystatechange=function() {
-        if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-          var result = JSON.parse(xmlhttp.responseText).cover.source;
-          document.getElementById("cover").backgroundImage="url('<?php echo $cover; ?>')";
-        }
-    }
-    xmlhttp.open("GET",'https://graph.facebook.com/1319213971?fields=cover&access_token=891866704218607|L9z9YwMAalftoLp55he0B8lexrY',true);
-    xmlhttp.send();
-
-</script>
-
-
 </div>
 
 
