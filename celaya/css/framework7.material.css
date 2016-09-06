@@ -35,6 +35,21 @@ select {
   border-radius: 50%; 
 }
 
+.box-blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.box-app {
+  -webkit-box-shadow:  0 0 2px 0px #999;   
+  -moz-box-shadow:  0 0 2px 0px #999;
+  box-shadow:  0 0 2px 0px #999;
+  border-radius: 25%; 
+}
+
 .sh {
   text-shadow: 5px 5px 5px #222;
 }
@@ -1052,7 +1067,8 @@ p {
 .navbar,
 .toolbar,
 .subnavbar {
-  background: #3D5994;
+  background: #5582A0;
+
 }
 .navbar a.link,
 .toolbar a.link,
@@ -1585,7 +1601,7 @@ html:not(.watch-active-state) .tabbar a.tab-link:active,
 .searchbar {
   height: 48px;
   width: 100%;
-  background: #3D5994;
+  background: #5582A0;
   box-sizing: border-box;
   padding: 0 16px;
   overflow: hidden;
