@@ -38,7 +38,7 @@
             allowDuplicateUrls: false,
             router: true,
             // Push State
-            pushState: false,
+            pushState: true,
             pushStateRoot: undefined,
             pushStateNoAnimation: false,
             pushStateSeparator: '#!/',
