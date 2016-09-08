@@ -2028,6 +2028,13 @@ i.icon.icon-gallery4 {
   border-radius: 3px;
 }
 
+i.icon.icon-gallery4x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/gallery4.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-version1 {
   width: 24px;
   height: 24px;
@@ -2257,6 +2264,12 @@ i.icon.icon-privacy3 {
 i.icon.icon-promo1 {
   width: 24px;
   height: 24px;
+  background-image: url("../img/icons/promo1.png");
+  border-radius: 3px;}
+
+i.icon.icon-promo1x {
+  width: 36px;
+  height: 36px;
   background-image: url("../img/icons/promo1.png");
   border-radius: 3px;}
 
