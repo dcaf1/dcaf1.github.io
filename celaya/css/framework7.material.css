@@ -2385,6 +2385,12 @@ i.icon.icon-web1 {
   background-image: url("../img/icons/web1.png");
   border-radius: 3px;}
 
+i.icon.icon-web1x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/web1.png");
+  border-radius: 3px;}
+
 i.icon.icon-web2 {
   width: 24px;
   height: 24px;
