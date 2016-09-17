@@ -1350,6 +1350,17 @@
 		line-height: 1.75em;
 	}
 
+.box-shadow {
+  -webkit-box-shadow:  0 0 2px 0px #999;   
+  -moz-box-shadow:  0 0 2px 0px #999;
+  box-shadow:  0 0 2px 0px #999;
+  border-radius: 50%; 
+}
+
+.sh {
+  text-shadow: 5px 5px 5px #222;
+}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
