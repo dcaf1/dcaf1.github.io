@@ -18,14 +18,21 @@ window.fbAsyncInit = function() {
         xfbml    : true,  
         version  : 'v2.0'  
     });  
-}  
+}
+
+function ingresar() {  
+    FB.login(function(response){  
+        validarUsuario();  
+    }, {scope: 'public_profile, email'});  
+}
+  
 </script>  
 
 
     </head>  
     <body> 
 
-<fb:login-button scope="public_profile,email" onlogin="validarUsuario();"></fb:login-button>  
+<button onclick="ingresar();">Ingresar con Facebook</button>
 
 d 
     </body>  
