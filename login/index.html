@@ -66,20 +66,15 @@
     oauth      : true
   });
 
-   FB.Event.subscribe('auth.statusChange', function(response) {
-         if (responsestatus = 'connected') {
-           //si el usuario es logueado correctamente hacemos lo que queramos
-           //en nuestro caso redirigimos
-           FB.api('/me', function(me){
-           if (me.name) {
-            //en vez de redirigir, como la petición es realizada
-            //sin refrescar, podemos hacer cualquier interacción
-            //sin movernos de la página
-              window.location = "http://localhost/jquery/home.html";
-           }
-           })
-         } 
-        });
+   FB.getLoginStatus(function(response){
+       mystatus(response);
+   });
+
+   function mystatus(response) {
+     if (response.status='connected') {
+       location.href="http://www.google.com";
+     }
+   }
 
   // Now that we've initialized the JavaScript SDK, we call 
   // FB.getLoginStatus().  This function gets the state of the
