@@ -18,15 +18,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
-   FB.getLoginStatus(function(response){
-       mystatus(response);
-   });
-
-   function mystatus(response) {
-     if (response.status === 'connected') {
-       location.href="http://www.google.com";
-     }
-   }
 
 </script>
 
@@ -89,6 +80,11 @@
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
   });
+
+  function mystatus(response) {
+     if (response.status === 'connected') {
+       location.href="http://www.google.com";
+     }
 
   };
 
