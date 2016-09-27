@@ -1,7 +1,8 @@
 <!DOCTYPE html>  
 <html>  
     <head>  
-        <title>Ejemplo Login con Facebook</title>  
+        <title>Ejemplo Login con Facebook</title>
+
 
 <script>  
 (function(d,s,id) {  
@@ -18,22 +19,25 @@ window.fbAsyncInit = function() {
         xfbml    : true,  
         version  : 'v2.0'  
     });  
-}
+} 
 
 function ingresar() {  
     FB.login(function(response){  
         validarUsuario();  
     }, {scope: 'public_profile, email'});  
-}
-  
+}  
+
+ 
 </script>  
 
 
+
+  
     </head>  
-    <body> 
+    <body>
 
-<button onclick="ingresar();">Ingresar con Facebook</button>
+<button onclick="ingresar();">Ingresar con Facebook</button>  
 
-e 
+  
     </body>  
-</html> 
+</html>
