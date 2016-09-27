@@ -67,7 +67,7 @@
   });
 
    FB.Event.subscribe('auth.statusChange', function(response) {
-         if (response.authResponse) {
+         if (responsestatus = 'connected') {
            //si el usuario es logueado correctamente hacemos lo que queramos
            //en nuestro caso redirigimos
            FB.api('/me', function(me){
