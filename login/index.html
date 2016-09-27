@@ -63,7 +63,23 @@
                         // the session
     xfbml      : true,  // parse social plugins on this page
     version    : 'v2.5' // use graph api version 2.5
+    oauth      : true
   });
+
+   FB.Event.subscribe('auth.statusChange', function(response) {
+         if (response.authResponse) {
+           //si el usuario es logueado correctamente hacemos lo que queramos
+           //en nuestro caso redirigimos
+           FB.api('/me', function(me){
+           if (me.name) {
+            //en vez de redirigir, como la petición es realizada
+            //sin refrescar, podemos hacer cualquier interacción
+            //sin movernos de la página
+              window.location = "http://localhost/jquery/home.html";
+           }
+           })
+         } 
+        });
 
   // Now that we've initialized the JavaScript SDK, we call 
   // FB.getLoginStatus().  This function gets the state of the
@@ -81,11 +97,6 @@
     statusChangeCallback(response);
   });
 
-   function mystatus(response) {
-     if (response.status === 'connected') {
-       location.href="http://www.google.com";
-     }
-}
   };
 
   // Load the SDK asynchronously
