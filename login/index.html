@@ -63,7 +63,7 @@
                         // the session
     xfbml      : true,  // parse social plugins on this page
     version    : 'v2.5' // use graph api version 2.5
-    oauth      : true
+    oauth      : true,
   });
 
 
@@ -82,13 +82,21 @@
 
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
- if (response.status='connected') {
-       location.href="http://www.google.com";
-     }
-
   });
 
   };
+
+FB.getLoginStatus(function(response){
+       mystatus(response);
+   });
+
+   function mystatus(response) {
+     if (response.status === 'connected') {
+       location.href="http://www.google.com";
+     }
+   }
+
+
 
   // Load the SDK asynchronously
   (function(d, s, id) {
@@ -108,19 +116,6 @@
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
     });
-
-
-FB.getLoginStatus(function(response){
-       mystatus(response);
-   });
-
-   function mystatus(response) {
-     if (response.status='connected') {
-       location.href="http://www.google.com";
-     }
-   }
-
-
   }
 
 
