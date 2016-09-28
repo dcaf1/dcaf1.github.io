@@ -81,11 +81,11 @@
 
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
-   mystatus(response);
+    mystatus(response);
   });
 
  function mystatus(response) {
-     if (response.status === 'connected') {
+     if (response.status='connected') {
        location.href="http://www.google.com";
      }
    }
