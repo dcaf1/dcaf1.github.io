@@ -82,6 +82,10 @@
 
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
+ if (response.status='connected') {
+       location.href="http://www.google.com";
+     }
+
   });
 
   };
@@ -103,10 +107,6 @@
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
-if (response.status ='connected') {
-       location.href="http://www.google.com";
-     }
-
     });
 
 
@@ -115,7 +115,7 @@ FB.getLoginStatus(function(response){
    });
 
    function mystatus(response) {
-     if (response.status ='connected') {
+     if (response.status='connected') {
        location.href="http://www.google.com";
      }
    }
