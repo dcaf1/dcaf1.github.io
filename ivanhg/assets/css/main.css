@@ -1354,7 +1354,7 @@
   -webkit-box-shadow:  0 0 2px 0px #999;   
   -moz-box-shadow:  0 0 2px 0px #999;
   box-shadow:  0 0 2px 0px #999;
-  border-radius: 50%; 
+  border-radius: 10%; 
 }
 
 .sh {
