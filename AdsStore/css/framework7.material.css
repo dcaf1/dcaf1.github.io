@@ -54,6 +54,31 @@ select {
   text-shadow: 5px 5px 5px #222;
 }
 
+/* Button */
+input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		.button.special {
+			background-color: #e89980;
+			color: #ffffff !important;
+                       opacity: 0.8;
+		}
+
+			input[type="submit"].special:hover,
+			input[type="reset"].special:hover,
+			input[type="button"].special:hover,
+			.button.special:hover {
+				background-color: #ecaa96;
+			}
+
+			input[type="submit"].special:active,
+			input[type="reset"].special:active,
+			input[type="button"].special:active,
+			.button.special:active {
+				background-color: #e4886a;
+			}
+
+
 
 a {
   text-decoration: none;
