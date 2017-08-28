@@ -2088,6 +2088,13 @@ i.icon.icon-dcaf1 {
   border-radius: 3px;
 }
 
+i.icon.icon-dcaf2 {
+  width: 42px;
+  height: 42px;
+  background-image: url("../img/icons/dcaf2.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-playstore1x {
   width: 36px;
   height: 36px;
