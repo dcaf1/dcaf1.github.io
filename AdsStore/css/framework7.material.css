@@ -1067,7 +1067,7 @@ p {
 .navbar,
 .toolbar,
 .subnavbar {
-  background: #ff5959;
+  background: #5582A0;
 
 }
 .navbar a.link,
@@ -1601,7 +1601,7 @@ html:not(.watch-active-state) .tabbar a.tab-link:active,
 .searchbar {
   height: 48px;
   width: 100%;
-  background: #ff5959;
+  background: #5582A0;
   box-sizing: border-box;
   padding: 0 16px;
   overflow: hidden;
