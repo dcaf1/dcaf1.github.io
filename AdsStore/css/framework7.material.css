@@ -2096,6 +2096,13 @@ i.icon.icon-dcaf2 {
   border-radius: 3px;
 }
 
+i.icon.icon-dcaflogo {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/dcaflogo.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-playstore1x {
   width: 36px;
   height: 36px;
@@ -2107,6 +2114,13 @@ i.icon.icon-dcaf1x {
   width: 36px;
   height: 36px;
   background-image: url("../img/icons/dcaf1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-dcaf0b {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/dcaf0b.png");
   border-radius: 3px;
 }
 
