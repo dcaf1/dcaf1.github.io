@@ -80,6 +80,27 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+[class^="icon-magnifying-glass32"], [class*=" icon-magnifying-glass32"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'dcafsgv' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; /*Tamaño del icono*/
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #FFFFFF;
+
+
+
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
 [class^="icon-black-and-white-credit-cards"], [class*=" icon-black-and-white-credit-cards"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'dcafsgv' !important;
