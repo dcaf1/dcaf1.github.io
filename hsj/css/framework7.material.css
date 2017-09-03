@@ -1,19 +1,4 @@
-/**
- * Framework7 1.4.2
- * Full Featured Mobile HTML Framework For Building iOS & Android Apps
- * 
- * Google Material Theme
- *
- * http://www.idangero.us/framework7
- * 
- * Copyright 2016, Vladimir Kharlampidi
- * The iDangero.us
- * http://www.idangero.us/
- * 
- * Licensed under MIT
- * 
- * Released on: February 27, 2016
- */
+
 html,
 body {
   position: relative;
@@ -2197,6 +2182,13 @@ i.icon.icon-dcaf1 {
   border-radius: 3px;
 }
 
+i.icon.icon-dcaflogo {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/dcaflogo.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-home1 {
   width: 24px;
   height: 24px;
@@ -3670,7 +3662,7 @@ textarea.resizable {
   text-decoration: none;
   text-align: center;
   display: block;
-  border-radius: 2px;
+  border-radius: 5px;
   line-height: 36px;
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -3683,12 +3675,12 @@ textarea.resizable {
   height: 36px;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
   font-family: inherit;
   cursor: pointer;
   min-width: 64px;
-  padding: 0 8px;
+  padding: 0 10px;
   position: relative;
   overflow: hidden;
   outline: 0;
