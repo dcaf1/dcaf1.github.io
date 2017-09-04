@@ -2146,6 +2146,13 @@ i.icon.icon-search1 {
   border-radius: 3px;
 }
 
+i.icon.icon-search3 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/search3.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-celaya {
   width: 24px;
   height: 24px;
