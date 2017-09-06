@@ -1628,6 +1628,7 @@ html:not(.watch-active-state) .tabbar a.tab-link:active,
   height: 48px;
   width: 100%;
   background: #5582A0;
+  opacity: 0.9;
   box-sizing: border-box;
   padding: 0 16px;
   overflow: hidden;
