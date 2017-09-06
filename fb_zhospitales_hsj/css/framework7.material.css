@@ -2124,6 +2124,13 @@ i.icon.icon-facebook1 {
   border-radius: 3px;
 }
 
+i.icon.icon-facebook1x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/facebook.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-gallery1 {
   width: 24px;
@@ -2150,6 +2157,13 @@ i.icon.icon-gallery3 {
 i.icon.icon-gallery4 {
   width: 24px;
   height: 24px;
+  background-image: url("../img/icons/gallery4.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-gallery4x {
+  width: 36px;
+  height: 36px;
   background-image: url("../img/icons/gallery4.png");
   border-radius: 3px;
 }
@@ -2182,6 +2196,13 @@ i.icon.icon-dcaf1 {
   border-radius: 3px;
 }
 
+i.icon.icon-dcaf2 {
+  width: 42px;
+  height: 42px;
+  background-image: url("../img/icons/dcaf2.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-dcaflogo {
   width: 24px;
   height: 24px;
@@ -2189,10 +2210,67 @@ i.icon.icon-dcaflogo {
   border-radius: 3px;
 }
 
+i.icon.icon-playstore1x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/playstore1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-dcaf1x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/dcaf1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-dcaf0b {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/dcaf0b.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-celaya1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/celaya1.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-home1 {
   width: 24px;
   height: 24px;
   background-image: url("../img/icons/home.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-category1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/category1.png");
+  border-radius: 3px;
+}
+
+
+i.icon.icon-search1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/search1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-search3 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/search3.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-celaya {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/celaya.png");
   border-radius: 3px;
 }
 
@@ -2270,6 +2348,13 @@ i.icon.icon-map2 {
   border-radius: 3px;
 }
 
+i.icon.icon-map2x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/map2.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-map3 {
   width: 24px;
@@ -2308,6 +2393,12 @@ i.icon.icon-phone1 {
   border-radius: 3px;
 }
 
+i.icon.icon-phone1x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/phone1.png");
+  border-radius: 3px;
+}
 
 i.icon.icon-phone2 {
   width: 24px;
@@ -2348,6 +2439,12 @@ i.icon.icon-privacy3 {
 i.icon.icon-promo1 {
   width: 24px;
   height: 24px;
+  background-image: url("../img/icons/promo1.png");
+  border-radius: 3px;}
+
+i.icon.icon-promo1x {
+  width: 36px;
+  height: 36px;
   background-image: url("../img/icons/promo1.png");
   border-radius: 3px;}
 
@@ -2430,6 +2527,12 @@ i.icon.icon-twitter1 {
   border-radius: 3px;
 }
 
+i.icon.icon-twitter1x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/twitter.png");
+  border-radius: 3px;
+}
 
 i.icon.icon-user1 {
   width: 24px;
@@ -2457,6 +2560,12 @@ i.icon.icon-web1 {
   background-image: url("../img/icons/web1.png");
   border-radius: 3px;}
 
+i.icon.icon-web1x {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/web1.png");
+  border-radius: 3px;}
+
 i.icon.icon-web2 {
   width: 24px;
   height: 24px;
@@ -2474,6 +2583,7 @@ i.icon.icon-whatsapp1 {
   height: 24px;
   background-image: url("../img/icons/whatsapp.png");
   border-radius: 3px;}
+
 
 
 i.icon.icon-form-name {
