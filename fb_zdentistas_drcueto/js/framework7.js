@@ -8142,7 +8142,7 @@
                 type: 'standalone',
                 navbar: true,
                 toolbar: true,
-                theme: 'light',
+                theme: 'dark',
                 swipeToClose: true,
                 backLinkText: 'Close',
                 ofText: 'of',
