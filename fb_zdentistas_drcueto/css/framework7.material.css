@@ -2376,6 +2376,13 @@ i.icon.icon-message {
   border-radius: 3px;
 }
 
+i.icon.icon-messagex {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/message.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-message2 {
   width: 24px;
@@ -2498,6 +2505,13 @@ i.icon.icon-reg {
 i.icon.icon-info1 {
   width: 24px;
   height: 24px;
+  background-image: url("../img/icons/info1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-info1x {
+  width: 36px;
+  height: 36px;
   background-image: url("../img/icons/info1.png");
   border-radius: 3px;
 }
