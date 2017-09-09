@@ -299,22 +299,7 @@ var photoBrowserPhotos = [
 		url: 'img/gallery/3.jpg',
 		caption: ''
 	},
-{
-		url: 'img/gallery/4.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/5.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/6.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/7.jpg',
-		caption: ''
-	},
+
     
 
 ];
