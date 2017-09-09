@@ -5284,7 +5284,7 @@ html.pixel-ratio-3 .actions-popover-label:after {
   html.with-statusbar-overlay .popup {
     height: -webkit-calc(100% - 20px);
     height: calc(100% - 20px);
-    top: 20px;
+    top: 0px;
   }
   html.with-statusbar-overlay .popup-overlay {
     z-index: 9500;
@@ -5292,9 +5292,9 @@ html.pixel-ratio-3 .actions-popover-label:after {
 }
 html.with-statusbar-overlay .login-screen,
 html.with-statusbar-overlay .popup.tablet-fullscreen {
-  height: -webkit-calc(100% - 20px);
-  height: calc(100% - 20px);
-  top: 20px;
+  height: -webkit-calc(100% - 0px);
+  height: calc(100% - 0px);
+  top: 0px;
 }
 .modal-preloader .modal-title,
 .modal-preloader .modal-inner {
@@ -5843,14 +5843,14 @@ body.panel-closing .views {
 }
 /* === Statusbar overlay === */
 html.with-statusbar-overlay body {
-  padding-top: 20px;
+  padding-top: 0px;
   box-sizing: border-box;
 }
 html.with-statusbar-overlay body .statusbar-overlay {
   display: block;
 }
 html.with-statusbar-overlay body .panel {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .statusbar-overlay {
   background: #ff5959;
@@ -6159,7 +6159,7 @@ html.with-statusbar-overlay body .panel {
   animation: progressbar-infinite-2 2s linear infinite;
 }
 html.with-statusbar-overlay body > .progressbar-infinite {
-  top: 20px;
+  top: 0px;
 }
 .progressbar-infinite.color-multi {
   background: none !important;
@@ -6209,7 +6209,7 @@ body > .progressbar-infinite,
   animation: progressbar-out 300ms forwards;
 }
 html.with-statusbar-overlay body > .progressbar {
-  top: 20px;
+  top: 0px;
 }
 @-webkit-keyframes progressbar-in {
   from {
@@ -7048,7 +7048,7 @@ body > .photo-browser.photo-browser-out {
 html.with-statusbar-overlay body > .photo-browser {
   height: -webkit-calc(100% - 20px);
   height: calc(100% - 20px);
-  top: 20px;
+  top: 0px;
 }
 .popup > .photo-browser .navbar,
 body > .photo-browser .navbar,
