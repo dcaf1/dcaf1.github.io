@@ -30,7 +30,7 @@
     speak: none;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px; /*Tamaño del icono*/
+    font-size: 55px; /*Tamaño del icono*/
     font-variant: normal;
     text-transform: none;
     line-height: 1;
@@ -70,6 +70,26 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
+
+
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-telephone"], [class*=" icon-magnifying-glass32"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'dcafsgv' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; /*Tamaño del icono*/
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #FFFFFF;
+
 
 
 
