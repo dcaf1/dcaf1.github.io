@@ -5858,7 +5858,7 @@ html.with-statusbar-overlay body .panel {
   position: absolute;
   left: 0;
   top: 0;
-  height: 20px;
+  height: 0px;
   width: 100%;
   display: none;
   -webkit-transition-duration: 300ms;
