@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /1001hsj/
+Disallow: /app/
+Disallow: /dcaf/
+Disallow: /fb_zdentistas_drcueto/
+Disallow: /fb_zhospitales_hsj/
+Disallow: /fb_zmusicos_dosachezcrew/
+Disallow: /docs-demos/
+Disallow: /dist/
+Disallow: /Framework7-1.6.4/
+Disallow: /hsj/
+Disallow: /ivanhg/
+Disallow: /Old/
