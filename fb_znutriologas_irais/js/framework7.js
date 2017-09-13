@@ -13423,7 +13423,7 @@
             preloadImages: true,
             updateOnImagesReady: true,
             // loop
-            loop: true,
+            loop: false,
             loopAdditionalSlides: 0,
             loopedSlides: null,
             // Control
