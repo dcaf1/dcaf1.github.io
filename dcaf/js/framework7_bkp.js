@@ -13361,7 +13361,7 @@
             mousewheelForceToAxis: false,
             mousewheelSensitivity: 1,
             // Hash Navigation
-            hashnav: true,
+            hashnav: false,
             // Breakpoints
             breakpoints: undefined,
             // Slides grid
@@ -13392,13 +13392,13 @@
             // Pagination
             pagination: null,
             paginationElement: 'span',
-            paginationClickable: true,
+            paginationClickable: false,
             paginationHide: false,
             paginationBulletRender: null,
             paginationProgressRender: null,
             paginationFractionRender: null,
             paginationCustomRender: null,
-            paginationType: 'progress', // 'bullets' or 'progress' or 'fraction' or 'custom'
+            paginationType: 'bullets', // 'bullets' or 'progress' or 'fraction' or 'custom'
             // Resistance
             resistance: true,
             resistanceRatio: 0.85,
@@ -13406,14 +13406,14 @@
             nextButton: null,
             prevButton: null,
             // Progress
-            watchSlidesProgress: true,
-            watchSlidesVisibility: true,
+            watchSlidesProgress: false,
+            watchSlidesVisibility: false,
             // Cursor
             grabCursor: false,
             // Clicks
             preventClicks: true,
             preventClicksPropagation: true,
-            slideToClickedSlide: true,
+            slideToClickedSlide: false,
             // Lazy Loading
             lazyLoading: false,
             lazyLoadingInPrevNext: false,
