@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /1001hsj/
 Disallow: /app/
 Disallow: /dcaf/
+Disallow: /fb_dcaf/
 Disallow: /fb_zdentistas_drcueto/
 Disallow: /fb_zhospitales_hsj/
 Disallow: /fb_zindustria_agrosoluciones/
