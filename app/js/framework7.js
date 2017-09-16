@@ -8129,7 +8129,7 @@
                 type: 'standalone',
                 navbar: true,
                 toolbar: true,
-                theme: 'light',
+                theme: 'dark',
                 swipeToClose: true,
                 backLinkText: 'Close',
                 ofText: 'of',
@@ -13361,7 +13361,7 @@
             mousewheelForceToAxis: false,
             mousewheelSensitivity: 1,
             // Hash Navigation
-            hashnav: false,
+            hashnav: true,
             // Breakpoints
             breakpoints: undefined,
             // Slides grid
@@ -13392,13 +13392,13 @@
             // Pagination
             pagination: null,
             paginationElement: 'span',
-            paginationClickable: false,
+            paginationClickable: true,
             paginationHide: false,
             paginationBulletRender: null,
             paginationProgressRender: null,
             paginationFractionRender: null,
             paginationCustomRender: null,
-            paginationType: 'bullets', // 'bullets' or 'progress' or 'fraction' or 'custom'
+            paginationType: 'progress', // 'bullets' or 'progress' or 'fraction' or 'custom'
             // Resistance
             resistance: true,
             resistanceRatio: 0.85,
@@ -13406,14 +13406,14 @@
             nextButton: null,
             prevButton: null,
             // Progress
-            watchSlidesProgress: false,
-            watchSlidesVisibility: false,
+            watchSlidesProgress: true,
+            watchSlidesVisibility: true,
             // Cursor
             grabCursor: false,
             // Clicks
             preventClicks: true,
             preventClicksPropagation: true,
-            slideToClickedSlide: false,
+            slideToClickedSlide: true,
             // Lazy Loading
             lazyLoading: false,
             lazyLoadingInPrevNext: false,
