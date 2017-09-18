@@ -1630,7 +1630,7 @@ html:not(.watch-active-state) .tabbar a.tab-link:active,
   background: #2196f3;
   opacity: 0.9;
   box-sizing: border-box;
-  padding: 0 16px;
+  padding: 0 48px;
   overflow: hidden;
   position: relative;
   display: -webkit-box;
