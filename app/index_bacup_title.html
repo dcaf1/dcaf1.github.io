@@ -138,18 +138,19 @@ document.oncontextmenu = function(){return false;}
 
 <!-- 🍎 INDEX --> 
 
-<div data-page="searchbar" class="page">
+<div data-page="searchbar" class="page toolbar-fixed">
   <div class="navbar">
     <div class="navbar-inner">
-      <div class="left"><a href="index.html" class="back link icon-only"><i class="icon icon-celaya1"></i>&nbsp;iCelaya</a></div>
-     <form data-search-list=".search-here" data-search-in=".item-subtitle, .item-title, .item-text " class="searchbar searchbar-init">
-    <div class="searchbar-input">
-      <input type="search" placeholder="Ej. Abogados, psicólogos, etc."/><a href="#" class="searchbar-clear"></a>
-    </div>
-  </form>
-
+         <div class="left"><a href="index.html" class="close-panel link icon-only"></a></div>
+         <div class="right"><i class="icon icon-celaya1"></i>&nbsp;&nbsp;iCelaya</div>
+         <div class="right"><a href="index.html" class="close-panel link icon-only"></a></div>
     </div>
   </div>
+  <form data-search-list=".search-here" data-search-in=".item-subtitle, .item-title, .item-text " class="searchbar searchbar-init">
+    <div class="searchbar-input">
+      <input type="search" placeholder="Ej. Hospitales, nutriólogas, etc."/><a href="#" class="searchbar-clear"></a>
+    </div>
+  </form>
 
 
 
