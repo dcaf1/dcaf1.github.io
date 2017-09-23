@@ -13,3 +13,4 @@ Disallow: /hsj/
 Disallow: /ivanhg/
 Disallow: /Old/
 Disallow: /sandragv/
+Disallow: /web_uerchic/
