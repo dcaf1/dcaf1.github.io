@@ -289,39 +289,39 @@ myApp.onPageInit('sortable-list', function (page) {
 var photoBrowserPhotos = [
 	{
 		url: 'img/gallery/1.jpg',
-		caption: ''
+		caption: 'Arjona'
 	},
 {
 		url: 'img/gallery/2.jpg',
-		caption: ''
+		caption: 'FIG'
 	},
 {
 		url: 'img/gallery/3.jpg',
-		caption: ''
+		caption: 'Space'
 	},
 {
 		url: 'img/gallery/4.jpg',
-		caption: ''
+		caption: 'Coke'
 	},
 {
 		url: 'img/gallery/5.jpg',
-		caption: ''
+		caption: 'Sky'
 	},
 {
 		url: 'img/gallery/6.jpg',
-		caption: 'Love'
+		caption: 'Family'
 	},
 {
 		url: 'img/gallery/7.jpg',
-		caption: 'Love'
+		caption: 'Cumple'
 	},
 {
 		url: 'img/gallery/8.jpg',
-		caption: 'Love'
+		caption: 'Boda'
 	},
 {
 		url: 'img/gallery/9.jpg',
-		caption: 'Love'
+		caption: 'Collage'
 	},
 {
 		url: 'img/gallery/10.jpg',
