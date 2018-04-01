@@ -303,6 +303,14 @@ var photoBrowserPhotos = [
 		url: 'img/gallery/4.jpg',
 		caption: ''
 	},
+{
+		url: 'img/gallery/5.png',
+		caption: ''
+	},
+{
+		url: 'img/gallery/6.jpg',
+		caption: 'Love'
+	},
     
 
 ];
