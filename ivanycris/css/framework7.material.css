@@ -2071,8 +2071,8 @@ i.icon.icon-calendar3 {
 
 
 i.icon.icon-clock1 {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   background-image: url("../img/icons/clock1.png");
   border-radius: 3px;
 }
@@ -2178,6 +2178,13 @@ i.icon.icon-doc1 {
   width: 24px;
   height: 24px;
   background-image: url("../img/icons/doc1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-gift {
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/icons/gift.png");
   border-radius: 3px;
 }
 
