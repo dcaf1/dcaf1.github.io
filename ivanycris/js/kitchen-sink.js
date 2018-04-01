@@ -304,11 +304,27 @@ var photoBrowserPhotos = [
 		caption: ''
 	},
 {
-		url: 'img/gallery/5.png',
+		url: 'img/gallery/5.jpg',
 		caption: ''
 	},
 {
 		url: 'img/gallery/6.jpg',
+		caption: 'Love'
+	},
+{
+		url: 'img/gallery/7.jpg',
+		caption: 'Love'
+	},
+{
+		url: 'img/gallery/8.jpg',
+		caption: 'Love'
+	},
+{
+		url: 'img/gallery/9.jpg',
+		caption: 'Love'
+	},
+{
+		url: 'img/gallery/10.jpg',
 		caption: 'Love'
 	},
     
