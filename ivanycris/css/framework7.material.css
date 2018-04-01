@@ -2209,6 +2209,13 @@ i.icon.icon-dcaflogo {
   border-radius: 3px;
 }
 
+i.icon.icon-heart {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/heart.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-playstore1x {
   width: 36px;
   height: 36px;
