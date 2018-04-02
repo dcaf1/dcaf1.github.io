@@ -2084,6 +2084,14 @@ i.icon.icon-clock2 {
   background-image: url("../img/icons/clock2.png");
   border-radius: 3px;}
 
+
+i.icon.icon-clock2top {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/clock2.png");
+  border-radius: 3px;}
+
+
 i.icon.icon-clock3 {
   width: 24px;
   height: 24px;
@@ -2161,15 +2169,15 @@ i.icon.icon-gallery4 {
 }
 
 i.icon.icon-gallery4x {
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   background-image: url("../img/icons/gallery4.png");
   border-radius: 3px;
 }
 
 i.icon.icon-version1 {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   background-image: url("../img/icons/version1.png");
   border-radius: 3px;
 }
@@ -2184,6 +2192,13 @@ i.icon.icon-doc1 {
 i.icon.icon-gift {
   width: 48px;
   height: 48px;
+  background-image: url("../img/icons/gift.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-gifttop {
+  width: 24px;
+  height: 24px;
   background-image: url("../img/icons/gift.png");
   border-radius: 3px;
 }
@@ -2523,6 +2538,13 @@ i.icon.icon-reg {
 }
 
 i.icon.icon-info1 {
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/icons/info1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-info1top {
   width: 24px;
   height: 24px;
   background-image: url("../img/icons/info1.png");
@@ -2620,8 +2642,8 @@ i.icon.icon-web3 {
   border-radius: 3px;}
 
 i.icon.icon-whatsapp1 {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   background-image: url("../img/icons/whatsapp.png");
   border-radius: 3px;}
 
