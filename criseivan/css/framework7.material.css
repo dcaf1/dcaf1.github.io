@@ -2138,6 +2138,13 @@ i.icon.icon-facebook1x {
   border-radius: 3px;
 }
 
+i.icon.icon-facebook2x {
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/icons/facebook.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-gallery1 {
   width: 24px;
