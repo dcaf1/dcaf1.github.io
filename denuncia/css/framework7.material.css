@@ -4507,7 +4507,7 @@ html.android-4 .accordion-item-content {
 }
 .card {
   background: #fff;
-  margin: 0px;
+  margin: 8px;
   position: relative;
   border-radius: 2px;
   font-size: 14px;
