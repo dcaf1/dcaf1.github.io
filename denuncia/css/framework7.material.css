@@ -4703,7 +4703,7 @@ html:not(.watch-active-state) .notifications .card-footer a.link:not(.button-fil
 }
 .card-header {
   border-radius: 2px 2px 0 0;
-  font-size: 16px;
+  font-size: 20px;
 }
 .card-header:after {
   content: '';
