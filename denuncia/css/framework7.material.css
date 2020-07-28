@@ -2322,6 +2322,13 @@ i.icon.icon-police1x {
   border-radius: 3px;
 }
 
+i.icon.icon-police1xx {
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/icons/police1.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-search1 {
   width: 24px;
