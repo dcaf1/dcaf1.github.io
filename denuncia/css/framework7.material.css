@@ -2492,8 +2492,8 @@ i.icon.icon-phone1 {
 }
 
 i.icon.icon-phone1x {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   background-image: url("../img/icons/phone1.png");
   border-radius: 3px;
 }
@@ -3002,7 +3002,7 @@ html.pixel-ratio-3 .content-block-inner:after {
 /* === Lists === */
 .list-block {
   margin: 32px 0;
-  font-size: 16px;
+  font-size: 20px;
 }
 .list-block ul {
   list-style: none;
