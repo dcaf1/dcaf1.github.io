@@ -2440,8 +2440,8 @@ i.icon.icon-map2 {
 }
 
 i.icon.icon-map2x {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   background-image: url("../img/icons/map2.png");
   border-radius: 3px;
 }
@@ -2492,8 +2492,8 @@ i.icon.icon-phone1 {
 }
 
 i.icon.icon-phone1x {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   background-image: url("../img/icons/phone1.png");
   border-radius: 3px;
 }
