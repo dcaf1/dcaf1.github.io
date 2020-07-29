@@ -2113,6 +2113,13 @@ i.icon.icon-clock3 {
   border-radius: 3px;
 }
 
+i.icon.icon-backx {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/back.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-coment {
   width: 24px;
