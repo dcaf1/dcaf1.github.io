@@ -2440,8 +2440,8 @@ i.icon.icon-map2 {
 }
 
 i.icon.icon-map2x {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   background-image: url("../img/icons/map2.png");
   border-radius: 3px;
 }
@@ -2696,7 +2696,12 @@ i.icon.icon-whatsapp1 {
   background-image: url("../img/icons/whatsapp.png");
   border-radius: 3px;}
 
-
+i.icon.icon-tipsxx {
+  width: 56px;
+  height: 56px;
+  background-image: url("../img/icons/tips1.png");
+  border-radius: 3px;
+}
 
 i.icon.icon-form-name {
   width: 24px;
