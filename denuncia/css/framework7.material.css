@@ -2323,8 +2323,8 @@ i.icon.icon-police1x {
 }
 
 i.icon.icon-police1xx {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   background-image: url("../img/icons/police1.png");
   border-radius: 3px;
 }
@@ -4710,7 +4710,7 @@ html:not(.watch-active-state) .notifications .card-footer a.link:not(.button-fil
 }
 .card-header {
   border-radius: 2px 2px 0 0;
-  font-size: 36px;
+  font-size: 48px;
 }
 .card-header:after {
   content: '';
