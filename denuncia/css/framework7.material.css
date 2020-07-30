@@ -25,14 +25,15 @@ body {
 
 H2 {
   font-size: 24px;
-  font-family: sans-serif;
+  font-family: Roboto;
   font-weight: lighter;
 }
 
 
 Span {
-  font-size: 16px;
+  font-size: 18px;
   font-family: Roboto;
+  font-weight: lighter;
 }
 
 
