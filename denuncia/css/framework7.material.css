@@ -6671,7 +6671,7 @@ html.with-statusbar-overlay body > .progressbar {
 /* === Swiper === */
 .swiper-container {
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   overflow: hidden;
   /* Fix of Webkit flickering */
   z-index: 1;
@@ -6808,7 +6808,6 @@ html.with-statusbar-overlay body > .progressbar {
 .swiper-pagination {
   position: absolute;
   text-align: center;
-  background: #000000;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
