@@ -36,8 +36,6 @@ Span {
   font-weight: lighter;
 }
 
-
-
 a,
 input,
 textarea,
@@ -207,8 +205,12 @@ select {
 
 a {
   text-decoration: none;
-  color: #ff5959;
+  color: #3B8BF6;
+  font-size: 22px;
+  font-family: Arial;
 }
+
+
 p {
   margin: 1em 0;
 }
@@ -2176,8 +2178,8 @@ i.icon.icon-facebook1x {
 }
 
 i.icon.icon-facebook2x {
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 68px;
   background-image: url("../img/icons/facebook.png");
   border-radius: 3px;
 }
@@ -2470,8 +2472,8 @@ i.icon.icon-map2s {
 }
 
 i.icon.icon-map2x {
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 68px;
   background-image: url("../img/icons/map2.png");
   border-radius: 3px;
 }
@@ -2529,8 +2531,8 @@ i.icon.icon-phone1s {
 }
 
 i.icon.icon-phone1x {
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 68px;
   background-image: url("../img/icons/phone1.png");
   border-radius: 3px;
 }
@@ -2624,8 +2626,8 @@ i.icon.icon-reg {
 }
 
 i.icon.icon-info1 {
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 68px;
   background-image: url("../img/icons/info1.png");
   border-radius: 3px;
 }
@@ -2734,8 +2736,8 @@ i.icon.icon-whatsapp1 {
   border-radius: 3px;}
 
 i.icon.icon-tipsxx {
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 68px;
   background-image: url("../img/icons/tips1.png");
   border-radius: 3px;
 }
@@ -4753,7 +4755,7 @@ html:not(.watch-active-state) .notifications .card-footer a.link:not(.button-fil
 }
 .card-header {
   border-radius: 2px 2px 0 0;
-  font-size: 36px;
+  font-size: 32px;
 }
 .card-header:after {
   content: '';
