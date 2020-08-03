@@ -1200,7 +1200,7 @@ p {
 .navbar,
 .toolbar,
 .subnavbar {
-  background: #00bcd4;
+  background: #000000;
 }
 .navbar a.link,
 .toolbar a.link,
@@ -2195,6 +2195,15 @@ i.icon.icon-version1 {
   border-radius: 3px;
 }
 
+
+i.icon.icon-ivan1 {
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/icons/ivan1.png");
+  border-radius: 3px;
+}
+
+
 i.icon.icon-download1 {
   width: 48px;
   height: 48px;
@@ -2680,8 +2689,8 @@ i.icon.icon-user3 {
   border-radius: 3px;}
 
 i.icon.icon-web1 {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   background-image: url("../img/icons/web1.png");
   border-radius: 3px;}
 
