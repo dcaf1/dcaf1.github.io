@@ -1,0 +1,27 @@
+
+body{background-color: #000000;}
+
+.menu ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menu a {
+		display: block;
+		padding: 2em;
+		background-color: #212F3C;
+		text-decoration: none;
+		color: #DDDDDD;
+	}
+	.menu a:hover {
+		background-color: #CC673B;
+                text-decoration: none;
+		color: #FFFFFF;
+	}
+	.menu ul li ul {
+		display: none;
+	}
+	.menu ul li a:hover + ul, .menu ul li ul:hover {
+		display: block;
+	}
