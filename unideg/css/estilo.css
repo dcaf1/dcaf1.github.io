@@ -4,12 +4,11 @@ body {background-color: #EEEEEE;}
 
 .menu ul {
 
-  width: 100%;
-  text-align: center;
-  list-style: none;
+text-align: center;
+    display: inline-block;
+    list-style-type: none;
 
 font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-
 		display: flex;
 		padding: 0;
 		margin: 0;
@@ -41,9 +40,8 @@ font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 
 
 table {    
-
 font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    border: 3pt solid #eeeeee;
+    border: 1pt solid gray;
     border-collapse: collapse;
     padding: 1em;
 
@@ -61,7 +59,7 @@ th {
 
 td {    
  font-size: 14px; 
-        border: 3pt solid #eeeeee;
+    border: 1pt solid gray;
     border-collapse: collapse;
  padding: 8px;     
  background: #FFFFFF;     
