@@ -1,1 +1,2 @@
-Ingresa el url publico de pagina web
+Link 1: http://unidegx.000webhostapp.com
+Link 2: http://1.linktu.xyz/unideg/
