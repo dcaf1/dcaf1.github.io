@@ -15,3 +15,4 @@ Disallow: /Old/
 Disallow: /sandragv/
 Disallow: /Old2_DCAF/
 Disallow: /web_uerchic/
+Disallow: /act2/
