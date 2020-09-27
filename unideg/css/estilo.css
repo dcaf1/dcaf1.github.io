@@ -2548,6 +2548,8 @@
 
 		table td {
 			padding: 0.75em 0.75em;
+			text-align: left;
+                        vertical-align: middle;
 		}
 
 		table th {
@@ -2593,9 +2595,9 @@
 				border-top: 0;
 			}
 
-                   table tr:hover {
+                   /* table tr:hover {
                    background-color: #f8f8f8;
-                   cursor: pointer;
+                   cursor: pointer; /*
 }
 
 
@@ -3031,7 +3033,7 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: #333;
+		background-color: #666;
 		background-image: url("../img/filtro.png"), url("../img/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
@@ -3299,7 +3301,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 100px) {
+	@media screen and (max-width: 840px) {
 
 		/* Basic */
 
