@@ -3770,7 +3770,7 @@ margin:0;
 padding:0;
 }
 
-.modal{
+.modal, .modal1, .modal2, .modal3, .modal4, .modal5{
 	width:100%; 
 	height:100%; 
 	background: rgba(0,0,0,.3);
@@ -3780,13 +3780,13 @@ padding:0;
 	display:none;
 }
 
-.modal1{
+.modal, .modal6, .modal7, .modal8, .modal9{
 	width:100%; 
 	height:100%; 
 	background: rgba(0,0,0,.3);
 	position:fixed; z-index:10000;
 	top:0;
-	left:0;
+	left: 0;
 	display:none;
 }
 
@@ -3794,11 +3794,9 @@ padding:0;
 .ventana{
 	width:400px;
 	height:400px;
-	background: #fff;
 	text-align:center;
 	position:absolute;
 	top:20%;
 	left:-200px;
 	margin-left:50%;
 	}
-	

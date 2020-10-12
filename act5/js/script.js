@@ -39,6 +39,7 @@ $(".boton-abrir5").click(function(){$(".modal5").fadeIn("300");});$(".boton-cerr
 $(".boton-abrir6").click(function(){$(".modal6").fadeIn("300");});$(".boton-cerrar6").click(function(){$(".modal6").fadeOut("300");});
 $(".boton-abrir7").click(function(){$(".modal7").fadeIn("300");});$(".boton-cerrar7").click(function(){$(".modal7").fadeOut("300");});
 $(".boton-abrir8").click(function(){$(".modal8").fadeIn("300");});$(".boton-cerrar8").click(function(){$(".modal8").fadeOut("300");});
+$(".boton-abrir9").click(function(){$(".modal9").fadeIn("300");});$(".boton-cerrar9").click(function(){$(".modal9").fadeOut("300");});
 
 });
 
