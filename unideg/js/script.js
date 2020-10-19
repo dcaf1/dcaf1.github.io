@@ -26,6 +26,27 @@ function hora(){
 
 }
 
+<!-- 🍎 IMAGENES MODAL -->
+
+$(document).ready(function(){
+
+$(".boton-abrir").click(function(){$(".modal").fadeIn("300");});$(".boton-cerrar").click(function(){$(".modal").fadeOut("300");});
+$(".boton-abrir1").click(function(){$(".modal1").fadeIn("300");});$(".boton-cerrar1").click(function(){$(".modal1").fadeOut("300");});
+$(".boton-abrir2").click(function(){$(".modal2").fadeIn("300");});$(".boton-cerrar2").click(function(){$(".modal2").fadeOut("300");});
+$(".boton-abrir3").click(function(){$(".modal3").fadeIn("300");});$(".boton-cerrar3").click(function(){$(".modal3").fadeOut("300");});
+$(".boton-abrir4").click(function(){$(".modal4").fadeIn("300");});$(".boton-cerrar4").click(function(){$(".modal4").fadeOut("300");});
+$(".boton-abrir5").click(function(){$(".modal5").fadeIn("300");});$(".boton-cerrar5").click(function(){$(".modal5").fadeOut("300");});
+$(".boton-abrir6").click(function(){$(".modal6").fadeIn("300");});$(".boton-cerrar6").click(function(){$(".modal6").fadeOut("300");});
+$(".boton-abrir7").click(function(){$(".modal7").fadeIn("300");});$(".boton-cerrar7").click(function(){$(".modal7").fadeOut("300");});
+$(".boton-abrir8").click(function(){$(".modal8").fadeIn("300");});$(".boton-cerrar8").click(function(){$(".modal8").fadeOut("300");});
+$(".boton-abrir9").click(function(){$(".modal9").fadeIn("300");});$(".boton-cerrar9").click(function(){$(".modal9").fadeOut("300");});
+
+});
+
+<!-- 🍎 IMAGENES MODAL FIN -->
+
+
+
 
 
 (function($) {

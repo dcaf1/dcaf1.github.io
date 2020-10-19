@@ -2385,7 +2385,7 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 75%;
 		}
 
 			.image.fit img {
@@ -3762,4 +3762,41 @@
 				padding: 2.5em 1em 3em 1em;
 			}
 
+	}
+
+		/* MODAL */
+*{
+margin:0;
+padding:0;
+}
+
+.modal, .modal1, .modal2, .modal3, .modal4, .modal5{
+	width:100%; 
+	height:100%; 
+	background: rgba(0,0,0,.3);
+	position:fixed; z-index:10000;
+	top:0;
+	left:0;
+	display:none;
+}
+
+.modal, .modal6, .modal7, .modal8, .modal9{
+	width:100%; 
+	height:100%; 
+	background: rgba(0,0,0,.3);
+	position:fixed; z-index:10000;
+	top:0;
+	left: 0;
+	display:none;
+}
+
+
+.ventana{
+	width:400px;
+	height:400px;
+	text-align:center;
+	position:absolute;
+	top:20%;
+	left:-200px;
+	margin-left:50%;
 	}
