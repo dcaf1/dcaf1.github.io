@@ -41,6 +41,13 @@ $(".boton-abrir7").click(function(){$(".modal7").fadeIn("300");});$(".boton-cerr
 $(".boton-abrir8").click(function(){$(".modal8").fadeIn("300");});$(".boton-cerrar8").click(function(){$(".modal8").fadeOut("300");});
 $(".boton-abrir9").click(function(){$(".modal9").fadeIn("300");});$(".boton-cerrar9").click(function(){$(".modal9").fadeOut("300");});
 
+$(".boton-abrira").click(function(){$(".modala").fadeIn("300");});$(".boton-cerrara").click(function(){$(".modala").fadeOut("300");});
+$(".boton-abrirb").click(function(){$(".modalb").fadeIn("300");});$(".boton-cerrarb").click(function(){$(".modalb").fadeOut("300");});
+$(".boton-abrirc").click(function(){$(".modalc").fadeIn("300");});$(".boton-cerrarc").click(function(){$(".modalc").fadeOut("300");});
+$(".boton-abrird").click(function(){$(".modald").fadeIn("300");});$(".boton-cerrard").click(function(){$(".modald").fadeOut("300");});
+$(".boton-abrire").click(function(){$(".modale").fadeIn("300");});$(".boton-cerrare").click(function(){$(".modale").fadeOut("300");});
+$(".boton-abrirf").click(function(){$(".modalf").fadeIn("300");});$(".boton-cerrarf").click(function(){$(".modalf").fadeOut("300");});
+
 });
 
 <!-- 🍎 IMAGENES MODAL FIN -->

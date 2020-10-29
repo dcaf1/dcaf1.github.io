@@ -5,14 +5,13 @@
 	<title>Iván HG</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/estilo.css" />
+	<link rel="stylesheet" href="css/estilo.css?v=<?php echo(rand()); ?>" />
 			<script src="js/script.js"></script>
 			<script src="js/jquery.min.js"></script>
 			<script src="js/jquery.dropotron.min.js"></script>
 			<script src="js/jquery.scrollgress.min.js"></script>
 			<script src="js/skel.min.js"></script>
 			<script src="js/util.js"></script>
-
 
 
 </head>
@@ -24,7 +23,7 @@
 
 <!-- 🍎 MENU -->
 	
-	<header id="header" class="alt">
+	<header id="header">
 	
 	
         
@@ -66,20 +65,117 @@
 
 	
 
-
 <!-- 🍎 INTRO -->
-	<section id="banner">
-        <br><br>
-	<h3>Cotizaciones de la agencia</h3>
-        <br><br>
-	</section>
+
+<!-- 🍎 IMAGENES -->
+
+
+        <section class="box">
+
+									
+
+        <div class="box alt">
+        <br>
+        <h3>Cotizaciones</h3>
+        <div class="row no-collapse 50% uniform">
+
+<!-- 🍎 IMAGEN-->
+       
+        <div class="2u"><a href="#"><span class="boton-abrira image fit"><img src="img/galeria1/Berlin.jpg" alt="" /></span></a></div>
+        <div class="modala"><div class="ventanax">
+        <form method="POST" action="cotizacion.php">
+        <p><left><img src="img/galeria1/Berlin.jpg" width=15% style="vertical-align:middle;"></left><b> Berlin</b>: Precio por noche <input type="hidden" name="P1" value="1000">$1,000</p> 
+        <p>¿Cuántas personas viajan?: <input type="text" name="S1" size="20"></p> 
+        <p>Inicio: <input type="date" placeholder="aaaa-mm-dd" name="fecha1" id="fecha1" required></p>
+        <p>Fin: &nbsp; &nbsp; &nbsp; <input type="date" placeholder="aaaa-mm-dd" name="fecha2" id="fecha2" required></p> 
+        <p><input type="submit" class="button special small" value="Cotizar" name="B1"></p> 
+        <input type="hidden" name="D1" value="Cotización Berlín, Alemania."></p>
+        <input type="hidden" name="F1" value="img/galeria1/Berlin.jpg"></p>
+        </form> 
+        <input type="button" class="boton-cerrara" value="Cerrar" /></div></div>
 
 
 
+        <div class="2u"><a href="#"><span class="boton-abrirb image fit"><img src="img/galeria1/Bratislava.jpg" alt="" /></span></a></div>
+        <div class="modalb"><div class="ventanax">
+        <form method="POST" action="cotizacion.php">
+        <p><left><img src="img/galeria1/Bratislava.jpg" width=15% style="vertical-align:middle;"></left><b> Bratislava</b>: Precio por noche <input type="hidden" name="P1" value="1200">$1,200</p> 
+        <p>¿Cuántas personas viajan?: <input type="text" name="S1" size="20"></p> 
+        <p>Inicio: <input type="date" placeholder="aaaa-mm-dd" name="fecha1" id="fecha1" required></p>
+        <p>Fin: &nbsp; &nbsp; &nbsp; <input type="date" placeholder="aaaa-mm-dd" name="fecha2" id="fecha2" required></p> 
+        <p><input type="submit" class="button special small" value="Cotizar" name="B1"></p> 
+        <input type="hidden" name="D1" value="Cotización Bratislava, Eslovaquia."></p>
+        <input type="hidden" name="F1" value="img/galeria1/Bratislava.jpg"></p>
+        </form> 
+        <input type="button" class="boton-cerrarb" value="Cerrar" /></div></div>
 
 
 
-        <script src="js/script.js"></script>
+        <div class="2u"><a href="#"><span class="boton-abrirc image fit"><img src="img/galeria1/Copenhague.jpg" alt="" /></span></a></div>
+        <div class="modalc"><div class="ventanax">
+        <form method="POST" action="cotizacion.php">
+        <p><left><img src="img/galeria1/Copenhague.jpg" width=15% style="vertical-align:middle;"></left><b> Copenhague</b>: Precio por noche <input type="hidden" name="P1" value="1400">$1,400</p> 
+        <p>¿Cuántas personas viajan?: <input type="text" name="S1" size="20"></p> 
+        <p>Inicio: <input type="date" placeholder="aaaa-mm-dd" name="fecha1" id="fecha1" required></p>
+        <p>Fin: &nbsp; &nbsp; &nbsp; <input type="date" placeholder="aaaa-mm-dd" name="fecha2" id="fecha2" required></p> 
+        <p><input type="submit" class="button special small" value="Cotizar" name="B1"></p> 
+        <input type="hidden" name="D1" value="Cotización Copenhague, Dinamarca."></p>
+        <input type="hidden" name="F1" value="img/galeria1/Copenhague.jpg"></p>
+        </form> 
+        <input type="button" class="boton-cerrarc" value="Cerrar" /></div></div>
+
+
+
+        <div class="2u"><a href="#"><span class="boton-abrird image fit"><img src="img/galeria1/Estocolmo.jpg" alt="" /></span></a></div>
+        <div class="modald"><div class="ventanax">
+        <form method="POST" action="cotizacion.php">
+        <p><left><img src="img/galeria1/Estocolmo.jpg" width=15% style="vertical-align:middle;"></left><b> Estocolmo</b>: Precio por noche <input type="hidden" name="P1" value="1600">$1,600</p> 
+        <p>¿Cuántas personas viajan?: <input type="text" name="S1" size="20"></p> 
+        <p>Inicio: <input type="date" placeholder="aaaa-mm-dd" name="fecha1" id="fecha1" required></p>
+        <p>Fin: &nbsp; &nbsp; &nbsp; <input type="date" placeholder="aaaa-mm-dd" name="fecha2" id="fecha2" required></p> 
+        <p><input type="submit" class="button special small" value="Cotizar" name="B1"></p> 
+        <input type="hidden" name="D1" value="Cotización Estocolmo, Suecia."></p>
+        <input type="hidden" name="F1" value="img/galeria1/Estocolmo.jpg"></p>
+        </form> 
+        <input type="button" class="boton-cerrard" value="Cerrar" /></div></div>
+
+
+
+        <div class="2u"><a href="#"><span class="boton-abrire image fit"><img src="img/galeria1/Helsinki.jpg" alt="" /></span></a></div>
+        <div class="modale"><div class="ventanax">
+        <form method="POST" action="cotizacion.php">
+        <p><left><img src="img/galeria1/Helsinki.jpg" width=15% style="vertical-align:middle;"></left><b> Helsinki</b>: Precio por noche <input type="hidden" name="P1" value="1800">$1,800</p> 
+        <p>¿Cuántas personas viajan?: <input type="text" name="S1" size="20"></p> 
+        <p>Inicio: <input type="date" placeholder="aaaa-mm-dd" name="fecha1" id="fecha1" required></p>
+        <p>Fin: &nbsp; &nbsp; &nbsp; <input type="date" placeholder="aaaa-mm-dd" name="fecha2" id="fecha2" required></p> 
+        <p><input type="submit" class="button special small" value="Cotizar" name="B1"></p> 
+        <input type="hidden" name="D1" value="Cotización Helsinki, Finlandia."></p>
+        <input type="hidden" name="F1" value="img/galeria1/Helsinki.jpg"></p>
+        </form> 
+        <input type="button" class="boton-cerrare" value="Cerrar" /></div></div>
+
+
+
+        <div class="2u"><a href="#"><span class="boton-abrirf image fit"><img src="img/galeria1/Kiev.jpg" alt="" /></span></a></div>
+        <div class="modalf"><div class="ventanax">
+        <form method="POST" action="cotizacion.php">
+        <p><left><img src="img/galeria1/Kiev.jpg" width=15% style="vertical-align:middle;"></left><b> Kiev</b>: Precio por noche <input type="hidden" name="P1" value="2000">$2,000</p> 
+        <p>¿Cuántas personas viajan?: <input type="text" name="S1" size="20"></p> 
+        <p>Inicio: <input type="date" placeholder="aaaa-mm-dd" name="fecha1" id="fecha1" required></p>
+        <p>Fin: &nbsp; &nbsp; &nbsp; <input type="date" placeholder="aaaa-mm-dd" name="fecha2" id="fecha2" required></p> 
+        <p><input type="submit" class="button special small" value="Cotizar" name="B1"></p> 
+        <input type="hidden" name="D1" value="Cotización Kiev, Ucrania."></p>
+        <input type="hidden" name="F1" value="img/galeria1/Kiev.jpg"></p>
+        </form> 
+        <input type="button" class="boton-cerrarf" value="Cerrar" /></div></div>
+
+
+        </div>
+
+
+</section>
+
+        <script src="js/script.js?v=<?php echo(rand()); ?>"></script>
 
 </body>
 

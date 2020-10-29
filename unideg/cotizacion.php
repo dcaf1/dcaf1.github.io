@@ -1,3 +1,10 @@
+<?php 
+session_start();
+include('config.php');
+error_reporting(0);
+
+?>
+
 <!doctype html>
 <html lang="es">
 
@@ -15,7 +22,6 @@
 
 
 
-
 </head>
 <body class="landing">
 
@@ -24,14 +30,16 @@
 
 
 <!-- 🍎 MENU -->
-	<!-- Header -->
-	<header id="header" class="alt">
+	
+	<header id="header">
 	
 	
         
         <nav id="nav">
 	<ul>
-	<li><a href="index.html"><span style="color: #ec9c84">Inicio</span></a></li>
+
+	<li><a href="index.html">Inicio</a></li>
+
 	<li>
 	<a href="#">Acerca</a>
 	<ul>
@@ -41,7 +49,9 @@
 	<li><a href="politica.html">Política</a></li>
 	</ul>
 	</li>
+
 	<li><a href="promociones.html">Promociones</a></li>
+
 	<li>
 	<a href="#">Galería</a>
 	<ul>
@@ -49,29 +59,62 @@
 	<li><a href="videos.html">Videos</a></li>
 	</ul>
 	</li>
-	<li><a href="cotizaciones.html">Cotizaciones</a></li>
+
+	<li><a href="cotizaciones.html"><span style="color: #ec9c84">Cotizaciones</span></a></li>
+
 	<li><a href="contacto.html">Contácto</a></li>
+
 	<li><a href="sesion.html">Iniciar sesión</a></li>
+
 	</ul>
 	</nav>
+
 	</header>
 
 	
 
 
 <!-- 🍎 INTRO -->
-	<section id="banner">
-        <br><br>
-	<h3>Sliderx</h3>
+
+
+
+<!-- 🍎 TABLAS -->
+	<section class="box">
+
         <br>
-	</section>
+	<h4>Destino turístico</h4>
+
+	<div class="table-wrapper">
+
+	<!-- 🍎 COTIZACIONES -->
+<h3>
+
+<img src="<?php $foto = $_POST['F1']; echo $foto; ?>" width="200" height="200" />
+<br>
+<?php 
+
+$destino = $_POST['D1'];
+$precio =  $_POST['P1'];
+$persona = $_POST['S1']; 
+$fecha1 =  new DateTime($_POST['fecha1']); 
+$fecha2 =  new DateTime($_POST['fecha2']); 
+
+echo "$destino \n";
+
+$interval = $fecha1->diff($fecha2);
+$dias = $interval->days;
+
+$cotizacion = (($precio * $dias) * $persona); 
 
 
+echo " \n$ $cotizacion"; 
 
-<!-- 🍎 ACTIVIDAD 3 -->
+?> 
 
+</h3>
 
-
+	</div>
+	</div>
 
         <script src="js/script.js"></script>
 
