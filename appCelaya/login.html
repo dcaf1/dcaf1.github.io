@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="img/icon.png" />
+    <meta name="theme-color" content="#3D5994">
+    <title>Ads Store</title>
+    <link rel="stylesheet" href="css/framework7.material.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/kitchen-sink.css">
+      <!-- WOW ANIMATION -->
+                <link href="fontsx/style.css" rel="stylesheet">
+
+    <link rel="icon" href="img/icon.png">
+  </head>
+  <body>
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7&appId=566053603589980";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+</script>
+
+
+
+<script>
+  // This is called with the results from from FB.getLoginStatus().
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+    // The response object is returned with a status field that lets the
+    // app know the current login status of the person.
+    // Full docs on the response object can be found in the documentation
+    // for FB.getLoginStatus().
+    if (response.status === 'connected') {
+      // Logged into your app and Facebook.
+      location.href="http://www.google.com";
+    } else if (response.status === 'not_authorized') {
+      // The person is logged into Facebook, but not your app.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    } else {
+      // The person is not logged into Facebook, so we're not sure if
+      // they are logged into this app or not.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into Facebook.';
+    }
+  }
+
+  // This function is called when someone finishes with the Login
+  // Button.  See the onlogin handler attached to it in the sample
+  // code below.
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '566053603589980',
+    cookie     : true,  // enable cookies to allow the server to access 
+                        // the session
+    xfbml      : true,  // parse social plugins on this page
+    version    : 'v2.5' // use graph api version 2.5
+  });
+
+
+
+  // Now that we've initialized the JavaScript SDK, we call 
+  // FB.getLoginStatus().  This function gets the state of the
+  // person visiting this page and can return one of three states to
+  // the callback you provide.  They can be:
+  //
+  // 1. Logged into your app ('connected')
+  // 2. Logged into Facebook, but not your app ('not_authorized')
+  // 3. Not logged into Facebook and can't tell if they are logged into
+  //    your app or not.
+  //
+  // These three cases are handled in the callback function.
+
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+
+  };
+
+
+  // Load the SDK asynchronously
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  // Here we run a very simple test of the Graph API after login is
+  // successful.  See statusChangeCallback() for when this call is made.
+  function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+      console.log('Successful login for: ' + response.name);
+      document.getElementById('status').innerHTML =
+        'Thanks for logging in, ' + response.name + '!';
+    });
+  }
+
+
+</script>
+
+<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+
+
+
+<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="true" data-auto-logout-link="true"></div>
+
+
+
+
+
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-cover">
+      <div class="view navbar-fixed">
+        <div class="pages">
+          <div data-page="panel-left" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Menú</div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="content-block">
+
+                <p>App Celaya es una aplicación para buscar productos y servicios en la Ciudad de Celaya Gto.</a></p>
+              </div>
+
+              <div class="list-block">
+
+
+  <ul>
+
+
+
+<!-- 🍎 --> 
+<li><a href="xusers.html" class="item-link close-panel">
+                      
+<div class="item-content">
+                        
+<div class="item-media">
+<i class="icon icon-user1"></i>
+</div>
+                        
+<div class="item-inner">
+                          
+<div class="item-title">Clientes</div>
+                        
+</div>
+                      
+</div></a></li>
+
+
+<!-- 🍎 -->                   
+<li><a href="xinfo.html" class="item-link close-panel">
+                      
+<div class="item-content">
+                        
+<div class="item-media">
+<i class="icon icon-info1"></i>
+</div>
+                        
+<div class="item-inner">
+                          
+<div class="item-title">Info</div>
+                        
+</div>
+                      
+</div></a></li>
+
+
+<!-- 🍎 --> 
+
+              
+                             
+</ul>
+              
+</div>
+
+
+<!-- 🍎 --> 
+              
+<div class="content-block">
+                
+<center>
+
+</center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-right panel-reveal">
+      <div class="view view-right">
+        <div class="pages navbar-fixed">
+          <div data-page="panel-right1" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Redes Sociales</div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="content-block">
+                <p>Queremos estar conectados contigo, visítanos:</p>
+              </div>
+              <div class="list-block">
+                <ul>
+
+                 <li><a href="#.html" class="external item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-facebook1"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Facebook</div>
+                        </div>
+                      </div></a></li>
+
+                   <li><a href="#.html" class="external item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-twitter1"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Twitter</div>
+                        </div>
+                      </div></a></li>
+
+                 <li><a href="#.html" class="external item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-insta2"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Instagram</div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="views">
+      <div class="view view-main">
+        <div class="pages navbar-fixed">
+<div data-page="subnavbar-title" class="page">
+  <div class="navbar">
+    <div class="navbar-inner">
+     <div class="center">Inicio</div>
+      <div class="right"><a href="xsearch.html" class="link"><i class="icon icon-search1"></i></a><a href="#" class="open-panel link"><i class="icon icon-bars"></i></a></div>
+    </div>
+  </div>
+
+
+
+
+<!-- 🍎 --> 
+  <div class="page-content">
+
+<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="true" data-auto-logout-link="true"></div>
+
+
+    </div>
+
+<!-- 🍎 -->
+
+ </div>
+</div>
+</div>
+</div>
+
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <script type="text/javascript" src="js/kitchen-sink.js"></script>
+  </body>
+</html>
