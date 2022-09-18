@@ -2132,6 +2132,13 @@ i.icon.icon-celaya1 {
   border-radius: 3px;
 }
 
+i.icon.icon-casa1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/casa1.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-home1 {
   width: 24px;
   height: 24px;
