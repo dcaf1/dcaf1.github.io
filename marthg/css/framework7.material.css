@@ -4398,7 +4398,6 @@ html.android-4 .accordion-item-content {
   white-space: nowrap;
   text-overflow: ellipsis;
   font-size: 14px;
-  text-transform: uppercase;
   font-family: inherit;
   cursor: pointer;
   min-width: 64px;
