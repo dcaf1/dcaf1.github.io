@@ -2577,7 +2577,7 @@ i.icon.icon-phone1 {
 i.icon.icon-phone1s {
   width: 36px;
   height: 36px;
-  background-image: url("../img/icons/phone5.png");
+  background-image: url("../img/icons/phone4.png");
   border-radius: 3px;
 }
 
@@ -2796,6 +2796,12 @@ i.icon.icon-web3 {
   border-radius: 3px;}
 
 i.icon.icon-whatsapp1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/whatsapp.png");
+  border-radius: 3px;}
+
+i.icon.icon-whatsapp1s {
   width: 36px;
   height: 36px;
   background-image: url("../img/icons/whatsapp.png");
