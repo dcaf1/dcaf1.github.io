@@ -23,17 +23,29 @@ body {
   -webkit-touch-callout: none;
 }
 
-H3 {
+H2 {
   font-size: 24px;
-  font-family: Roboto;
   font-weight: normal;
+  color:#000000;
+}
+
+H3 {
+  font-size: 22px;
+  font-weight: normal;
+  color:#000000;
+}
+
+H4 {
+  font-size: 16px;
+  font-weight: normal;
+  color:#000000;
 }
 
 
-Span {
+p {
   font-size: 18px;
-  font-family: Roboto;
   font-weight: lighter;
+  color:#000000;
 }
 
 a,
@@ -213,6 +225,7 @@ a {
 
 p {
   margin: 1em 0;
+  color: #000000;
 }
 /* === Grid === */
 .row {
@@ -1044,7 +1057,7 @@ p {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #fff;
   color:#fff;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -1220,7 +1233,7 @@ p {
 .navbar,
 .toolbar,
 .subnavbar {
-  background: #000000;
+  background: #1ABC9C;
 }
 .navbar a.link,
 .toolbar a.link,
@@ -2200,7 +2213,6 @@ i.icon.icon-gallery2 {
   border-radius: 3px;
 }
 
-
 i.icon.icon-gallery3 {
   width: 24px;
   height: 24px;
@@ -2214,10 +2226,24 @@ i.icon.icon-gallery4 {
   border-radius: 3px;
 }
 
+i.icon.icon-gallery4s {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/gallery4.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-gallery4x {
   width: 48px;
   height: 48px;
   background-image: url("../img/icons/gallery4.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-gallery5 {
+  width: 68px;
+  height: 68px;
+  background-image: url("../img/icons/gallery5.png");
   border-radius: 3px;
 }
 
@@ -2361,6 +2387,20 @@ i.icon.icon-police1xx {
   border-radius: 3px;
 }
 
+i.icon.icon-nw {
+  width: 64px;
+  height: 64px;
+  background-image: url("../img/icons/nw.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-nw1x {
+  width: 128px;
+  height: 128px;
+  background-image: url("../img/icons/nw1.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-search1 {
   width: 24px;
@@ -2397,7 +2437,7 @@ i.icon.icon-youtube1 {
   border-radius: 3px;
 }
 
-i.icon.icon-youtube1x {
+i.icon.icon-youtube1s {
   width: 36px;
   height: 36px;
   background-image: url("../img/icons/youtube1.png");
@@ -2533,7 +2573,7 @@ i.icon.icon-phone1 {
 i.icon.icon-phone1s {
   width: 36px;
   height: 36px;
-  background-image: url("../img/icons/phone5.png");
+  background-image: url("../img/icons/phone4.png");
   border-radius: 3px;
 }
 
@@ -2541,6 +2581,13 @@ i.icon.icon-phone1x {
   width: 68px;
   height: 68px;
   background-image: url("../img/icons/phone1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-social1x {
+  width: 68px;
+  height: 68px;
+  background-image: url("../img/icons/social1.png");
   border-radius: 3px;
 }
 
@@ -2638,6 +2685,14 @@ i.icon.icon-info1 {
   background-image: url("../img/icons/info1.png");
   border-radius: 3px;
 }
+
+i.icon.icon-services2 {
+  width: 68px;
+  height: 68px;
+  background-image: url("../img/icons/services2.png");
+  border-radius: 3px;
+}
+
 
 i.icon.icon-info1top {
   width: 24px;
@@ -2737,6 +2792,12 @@ i.icon.icon-web3 {
   border-radius: 3px;}
 
 i.icon.icon-whatsapp1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/whatsapp.png");
+  border-radius: 3px;}
+
+i.icon.icon-whatsapp1s {
   width: 36px;
   height: 36px;
   background-image: url("../img/icons/whatsapp.png");
@@ -3054,7 +3115,8 @@ html.pixel-ratio-3 .content-block-inner:after {
 .list-block {
   margin: 32px 0;
   font-size: 20px;
-}
+  color: #000000;
+} 
 .list-block ul {
   list-style: none;
   padding: 0;
@@ -3463,6 +3525,7 @@ html:not(.watch-active-state) .list-block .item-link:active,
 }
 .list-block .item-subtitle {
   font-size: 14px;
+  color: #000000;
   position: relative;
   overflow: hidden;
   white-space: nowrap;
