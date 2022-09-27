@@ -54,11 +54,12 @@ textarea,
 select {
   outline: 0;
 }
+
 .box-shadow {
   -webkit-box-shadow:  0 0 2px 0px #999;   
   -moz-box-shadow:  0 0 2px 0px #999;
   box-shadow:  0 0 2px 0px #999;
-  border-radius: 5%; 
+  border-radius: 50%; 
 }
 
 .sh {
@@ -2391,6 +2392,13 @@ i.icon.icon-nw {
   width: 64px;
   height: 64px;
   background-image: url("../img/icons/nw.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-nw1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/nw1.png");
   border-radius: 3px;
 }
 
