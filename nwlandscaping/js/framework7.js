@@ -8200,7 +8200,7 @@
                         '</div>' +
                         '<div class="center sliding">' +
                             '<span class="photo-browser-current"></span> ' +
-                            '<span class="photo-browser-of">de</span> ' +
+                            '<span class="photo-browser-of">of</span> ' +
                             '<span class="photo-browser-total"></span>' +
                         '</div>' +
                         '<div class="right"></div>' +
