@@ -3317,7 +3317,7 @@ html:not(.watch-active-state) .list-block .item-link:active,
   height: 48px;
   box-sizing: border-box;
   line-height: 48px;
-  font-size: 14px;
+  font-size: 20px;
 }
 .list-block .item-divider:before,
 .list-block .list-group-title:before {
