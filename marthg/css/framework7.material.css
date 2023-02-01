@@ -2482,6 +2482,12 @@ i.icon.icon-user3 {
   background-image: url("../img/icons/user3.png");
   border-radius: 3px;}
 
+i.icon.icon-user3s {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/user3.png");
+  border-radius: 3px;}
+
 i.icon.icon-web1 {
   width: 24px;
   height: 24px;
