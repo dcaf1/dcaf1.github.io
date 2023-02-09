@@ -2150,9 +2150,16 @@ i.icon.icon-casa1 {
   border-radius: 3px;
 }
 
-i.icon.icon-home1 {
+i.icon.icon-home {
   width: 24px;
   height: 24px;
+  background-image: url("../img/icons/home.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-home1 {
+  width: 36px;
+  height: 36px;
   background-image: url("../img/icons/home.png");
   border-radius: 3px;
 }
