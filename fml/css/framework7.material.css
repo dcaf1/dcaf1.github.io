@@ -2845,21 +2845,7 @@ html.pixel-ratio-3 .content-block-inner:after {
   margin: 0;
   position: relative;
 }
-.list-block ul:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: auto;
-  right: auto;
-  height: 1px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.12);
-  display: block;
-  z-index: 15;
-  -webkit-transform-origin: 50% 0%;
-  transform-origin: 50% 0%;
-}
+
 html.pixel-ratio-2 .list-block ul:before {
   -webkit-transform: scaleY(0.5);
   transform: scaleY(0.5);
