@@ -33,6 +33,14 @@ H4 {
 }
 
 
+p {
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: normal;
+  color:#000;
+}
+
+
 a,
 input,
 textarea,
