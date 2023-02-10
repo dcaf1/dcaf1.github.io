@@ -34,7 +34,7 @@ H4 {
 
 P {
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Arial;
   font-weight: normal;
   color:#000;
 }
@@ -2094,7 +2094,21 @@ i.icon.icon-doc1 {
   border-radius: 3px;
 }
 
+i.icon.icon-doc1s {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/doc1.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-share1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/share1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-share1s {
   width: 24px;
   height: 24px;
   background-image: url("../img/icons/share1.png");
@@ -2327,9 +2341,9 @@ i.icon.icon-phone1 {
   border-radius: 3px;
 }
 
-i.icon.icon-phone1x {
-  width: 36px;
-  height: 36px;
+i.icon.icon-phone1s {
+  width: 32px;
+  height: 32px;
   background-image: url("../img/icons/phone1.png");
   border-radius: 3px;
 }
@@ -2529,6 +2543,12 @@ i.icon.icon-web3 {
 i.icon.icon-whatsapp1 {
   width: 24px;
   height: 24px;
+  background-image: url("../img/icons/whatsapp.png");
+  border-radius: 3px;}
+
+i.icon.icon-whatsapp1s {
+  width: 32px;
+  height: 32px;
   background-image: url("../img/icons/whatsapp.png");
   border-radius: 3px;}
 
@@ -2845,7 +2865,6 @@ html.pixel-ratio-3 .content-block-inner:after {
   margin: 0;
   position: relative;
 }
-
 html.pixel-ratio-2 .list-block ul:before {
   -webkit-transform: scaleY(0.5);
   transform: scaleY(0.5);
