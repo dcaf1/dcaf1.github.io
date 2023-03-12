@@ -2297,6 +2297,13 @@ i.icon.icon-map2 {
   border-radius: 3px;
 }
 
+i.icon.icon-map2s {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/icons/map2.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-map2x {
   width: 36px;
   height: 36px;
