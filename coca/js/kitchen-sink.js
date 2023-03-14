@@ -288,18 +288,37 @@ myApp.onPageInit('sortable-list', function (page) {
 // Create photoprobsers first:
 var photoBrowserPhotos = [
 	{
-		url: 'zclientes/1.jpg',
+		url: 'galeria/1.jpeg',
 		caption: ''
 	},
 {
-		url: 'zclientes/2.jpg',
+		url: 'galeria/2.jpeg',
 		caption: ''
 	},
 {
-		url: 'zclientes/3.jpg',
+		url: 'galeria/3.jpeg',
 		caption: ''
 	},
-    
+{
+		url: 'galeria/4.jpeg',
+		caption: ''
+	},
+{
+		url: 'galeria/5.jpeg',
+		caption: ''
+	},
+{
+		url: 'galeria/6.jpeg',
+		caption: ''
+	},
+{
+		url: 'galeria/7.jpeg',
+		caption: ''
+	},
+{
+		url: 'galeria/8.jpeg',
+		caption: ''
+	},
 
 ];
 var photoBrowserStandalone = myApp.photoBrowser({

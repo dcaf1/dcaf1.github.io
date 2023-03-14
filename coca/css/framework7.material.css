@@ -2074,6 +2074,13 @@ i.icon.icon-gallery4 {
   border-radius: 3px;
 }
 
+i.icon.icon-gallery4s {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/icons/gallery4.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-gallery4x {
   width: 36px;
   height: 36px;
