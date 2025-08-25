@@ -2395,19 +2395,13 @@ i.icon.icon-police1xx {
   border-radius: 3px;
 }
 
-i.icon.icon-perfil {
+i.icon.icon-perfil1 {
   width: 64px;
   height: 64px;
   background-image: url("../img/icons/perfil1.png");
   border-radius: 3px;
 }
 
-i.icon.icon-perfil1 {
-  width: 24px;
-  height: 24px;
-  background-image: url("../img/icons/perfil1.png");
-  border-radius: 3px;
-}
 
 i.icon.icon-perfil1x {
   width: 128px;
