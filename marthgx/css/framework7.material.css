@@ -2353,7 +2353,7 @@ i.icon.icon-casa1 {
   border-radius: 3px;
 }
 
-i.icon.icon-home1 {
+i.icon.icon-home {
   width: 24px;
   height: 24px;
   background-image: url("../img/icons/home.png");
@@ -2589,7 +2589,7 @@ i.icon.icon-phone1s {
 i.icon.icon-phone1x {
   width: 68px;
   height: 68px;
-  background-image: url("../img/icons/phone1.png");
+  background-image: url("../img/icons/phone7.png");
   border-radius: 3px;
 }
 
@@ -2695,10 +2695,24 @@ i.icon.icon-info1 {
   border-radius: 3px;
 }
 
-i.icon.icon-services2 {
+i.icon.icon-services3 {
   width: 68px;
   height: 68px;
-  background-image: url("../img/icons/services2.png");
+  background-image: url("../img/icons/services3.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-terreno1 {
+  width: 68px;
+  height: 68px;
+  background-image: url("../img/icons/terreno1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-home1 {
+  width: 68px;
+  height: 68px;
+  background-image: url("../img/icons/home1.png");
   border-radius: 3px;
 }
 
@@ -4708,7 +4722,7 @@ html.android-4 .accordion-item-content {
 }
 .card-header a.link,
 .card-footer a.link {
-  color: #ff5959;
+  color: #2196f3;
   text-decoration: none;
   text-align: center;
   display: block;
