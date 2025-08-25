@@ -3614,7 +3614,7 @@ html:not(.watch-active-state) .list-block .item-link:active,
 }
 .list-block .item-divider,
 .list-block .list-group-title {
-  background: #212121;
+  background: #f4f4f4;
   padding: 0px 16px;
   white-space: nowrap;
   position: relative;
@@ -3625,8 +3625,7 @@ html:not(.watch-active-state) .list-block .item-link:active,
   height: 48px;
   box-sizing: border-box;
   line-height: 48px;
-  font-size: 16px;
-  Color:#dddddd;
+  font-size: 20px;
 }
 .list-block .item-divider:before,
 .list-block .list-group-title:before {
