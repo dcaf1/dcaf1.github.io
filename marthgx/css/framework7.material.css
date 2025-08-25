@@ -2395,24 +2395,24 @@ i.icon.icon-police1xx {
   border-radius: 3px;
 }
 
-i.icon.icon-nw {
+i.icon.icon-perfil {
   width: 64px;
   height: 64px;
-  background-image: url("../img/icons/nw.png");
+  background-image: url("../img/icons/perfil1.png");
   border-radius: 3px;
 }
 
-i.icon.icon-nw1 {
+i.icon.icon-perfil1 {
   width: 24px;
   height: 24px;
-  background-image: url("../img/icons/nw1.png");
+  background-image: url("../img/icons/perfil1.png");
   border-radius: 3px;
 }
 
-i.icon.icon-nw1x {
+i.icon.icon-perfil1x {
   width: 128px;
   height: 128px;
-  background-image: url("../img/icons/nw1.png");
+  background-image: url("../img/icons/perfil1.png");
   border-radius: 3px;
 }
 
