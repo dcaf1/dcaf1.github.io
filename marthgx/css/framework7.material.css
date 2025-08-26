@@ -43,10 +43,11 @@ H4 {
 
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: lighter;
   color:#000000;
 }
+
 
 a,
 input,
@@ -3648,7 +3649,7 @@ html:not(.watch-active-state) .list-block .item-link:active,
   height: 48px;
   box-sizing: border-box;
   line-height: 48px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .list-block .item-divider:before,
 .list-block .list-group-title:before {
@@ -4856,7 +4857,7 @@ html:not(.watch-active-state) .notifications .card-footer a.link:not(.button-fil
 }
 .card-header {
   border-radius: 2px 2px 0 0;
-  font-size: 32px;
+  font-size: 24px;
 }
 .card-header:after {
   content: '';
