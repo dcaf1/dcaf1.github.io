@@ -2193,6 +2193,13 @@ i.icon.icon-home1s {
   border-radius: 3px;
 }
 
+i.icon.icon-headed {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/headed.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-category1 {
   width: 24px;
   height: 24px;
