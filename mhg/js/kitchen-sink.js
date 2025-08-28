@@ -288,35 +288,15 @@ myApp.onPageInit('sortable-list', function (page) {
 // Create photoprobsers first:
 var photoBrowserPhotos = [
 	{
-		url: 'galeria/1.jpeg',
+		url: 'galeria/1.jpg',
 		caption: ''
 	},
 {
-		url: 'galeria/2.jpeg',
+		url: 'galeria/2.jpg',
 		caption: ''
 	},
 {
-		url: 'galeria/3.jpeg',
-		caption: ''
-	},
-{
-		url: 'galeria/4.jpeg',
-		caption: ''
-	},
-{
-		url: 'galeria/5.jpeg',
-		caption: ''
-	},
-{
-		url: 'galeria/6.jpeg',
-		caption: ''
-	},
-{
-		url: 'galeria/7.jpeg',
-		caption: ''
-	},
-{
-		url: 'galeria/8.jpeg',
+		url: 'galeria/3.jpg',
 		caption: ''
 	},
 
