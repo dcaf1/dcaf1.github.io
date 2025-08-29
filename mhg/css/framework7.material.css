@@ -2037,7 +2037,7 @@ i.icon.icon-facebook1 {
   border-radius: 3px;
 }
 
-i.icon.icon-facebook1x {
+i.icon.icon-facebook1s {
   width: 36px;
   height: 36px;
   background-image: url("../img/icons/facebook.png");
@@ -2458,6 +2458,13 @@ i.icon.icon-red3 {
   border-radius: 3px;
 }
 
+i.icon.icon-red3s {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/red3.png");
+  border-radius: 3px;
+}
+
 i.icon.icon-reg {
   width: 24px;
   height: 24px;
@@ -2481,10 +2488,17 @@ i.icon.icon-info1x {
 }
 
 
-i.icon.icon-services {
+i.icon.icon-services1 {
   width: 24px;
   height: 24px;
-  background-image: url("../img/icons/services.png");
+  background-image: url("../img/icons/services1.png");
+  border-radius: 3px;
+}
+
+i.icon.icon-services1s {
+  width: 36px;
+  height: 36px;
+  background-image: url("../img/icons/services1.png");
   border-radius: 3px;
 }
 
@@ -2551,7 +2565,7 @@ i.icon.icon-web1 {
   background-image: url("../img/icons/web1.png");
   border-radius: 3px;}
 
-i.icon.icon-web1x {
+i.icon.icon-web1s {
   width: 36px;
   height: 36px;
   background-image: url("../img/icons/web1.png");
