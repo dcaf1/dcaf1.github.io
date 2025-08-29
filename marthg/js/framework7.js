@@ -8200,7 +8200,7 @@
                         '</div>' +
                         '<div class="center sliding">' +
                             '<span class="photo-browser-current"></span> ' +
-                            '<span class="photo-browser-of">de</span> ' +
+                            '<span class="photo-browser-of">of</span> ' +
                             '<span class="photo-browser-total"></span>' +
                         '</div>' +
                         '<div class="right"></div>' +
@@ -13398,7 +13398,7 @@
             paginationProgressRender: null,
             paginationFractionRender: null,
             paginationCustomRender: null,
-            paginationType: 'bullets', // 'bullets' or 'progress' or 'fraction' or 'custom'
+            paginationType: 'progress', // 'bullets' or 'progress' or 'fraction' or 'custom'
             // Resistance
             resistance: true,
             resistanceRatio: 0.85,
@@ -13406,8 +13406,8 @@
             nextButton: null,
             prevButton: null,
             // Progress
-            watchSlidesProgress: false,
-            watchSlidesVisibility: false,
+            watchSlidesProgress: true,
+            watchSlidesVisibility: true,
             // Cursor
             grabCursor: false,
             // Clicks
