@@ -288,106 +288,18 @@ myApp.onPageInit('sortable-list', function (page) {
 // Create photoprobsers first:
 var photoBrowserPhotos = [
 	{
-		url: 'img/gallery/1.jpg',
+		url: 'clientes/1.jpg',
 		caption: ''
 	},
 {
-		url: 'img/gallery/2.jpg',
+		url: 'clientes/2.jpg',
 		caption: ''
 	},
 {
-		url: 'img/gallery/3.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/4.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/5.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/6.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/7.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/8.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/9.jpg',
-		caption: ''
-	},
-{
-		url: 'img/gallery/10.jpg',
+		url: 'clientes/3.jpg',
 		caption: ''
 	},
 
-{
-		url: 'img/gallery/11.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/12.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/13.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/14.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/15.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/16.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/17.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/18.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/19.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/20.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/21.jpg',
-		caption: ''
-	},
-
-{
-		url: 'img/gallery/22.jpg',
-		caption: ''
-	},
-    
 
 ];
 var photoBrowserStandalone = myApp.photoBrowser({

@@ -2185,7 +2185,7 @@ i.icon.icon-facebook1 {
   border-radius: 3px;
 }
 
-i.icon.icon-facebook1x {
+i.icon.icon-facebook1s {
   width: 36px;
   height: 36px;
   background-image: url("../img/icons/facebook.png");
@@ -2808,6 +2808,12 @@ i.icon.icon-user3 {
   width: 24px;
   height: 24px;
   background-image: url("../img/icons/user3.png");
+  border-radius: 3px;}
+
+i.icon.icon-user3x {
+  width: 68px;
+  height: 68px;
+  background-image: url("../img/icons/user3x.png");
   border-radius: 3px;}
 
 i.icon.icon-web1 {
